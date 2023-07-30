@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <h1>{{$store.state.Todos.saySomething}}</h1>
+    <TodoVue/>
   </div>
 </template>
 
 <script>
-
+import TodoVue from './components/Todo.vue';
 export default {
   name: 'App',
-  components: {},
+  components: {TodoVue},
 }
 </script>
